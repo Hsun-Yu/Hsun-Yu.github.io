@@ -13,7 +13,7 @@ Previously, I was advised by Prof. [Wei-Yun Ma](https://ckip.iis.sinica.edu.tw/)
 
 🎯 
 ======
-**I am actively seeking a semester project at EPFL starting in September 2025. If you're interested in collaborating, feel free to reach out!**
+**I am actively seeking a semester project at EPFL starting in September 2025. If there are any suitable opportunities, please reach out!**
 
 🗞️ Recent News
 ======
