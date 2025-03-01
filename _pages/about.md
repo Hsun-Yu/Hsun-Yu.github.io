@@ -17,7 +17,7 @@ Previously, I was advised by Prof. [Wei-Yun Ma](https://ckip.iis.sinica.edu.tw/)
 
 🗞️ Recent News
 ======
-- [02/2025] Our paper, ['**Not All LLM-Generated Data Are Equal: Rethinking Data Weighting in Text Classification,**'](https://openreview.net/forum?id=oI5tZaWkF9&nesting=2&sort=date-desc) has been accepted to ICLR 2025 and selected as a spotlight! 🌟
+- [02/2025] Our paper, ['**Not All LLM-Generated Data Are Equal: Rethinking Data Weighting in Text Classification,**'](https://openreview.net/forum?id=oI5tZaWkF9&nesting=2&sort=date-desc) has been accepted to ICLR 2025 and selected as spotlight! 🌟
 
 
 
