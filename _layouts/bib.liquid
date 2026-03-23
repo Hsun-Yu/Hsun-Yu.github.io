@@ -25,6 +25,24 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      {% if entry.badge %}
+        {% assign badge_style = null %}
+        {% if entry.badge_color %}
+          {% capture badge_style %}style="background-color: {{ entry.badge_color }}; border-color: {{ entry.badge_color }};{% if entry.badge_text_color %} color: {{ entry.badge_text_color }} !important;{% endif %}"{% endcapture %}
+        {% endif %}
+        <abbr
+          class="badge rounded w-100 badge-status"
+          {% if badge_style %}
+            {{ badge_style }}
+          {% endif %}
+        >
+          {% if entry.badge_url %}
+            <a href="{{ entry.badge_url }}">{{ entry.badge }}</a>
+          {% else %}
+            <div>{{ entry.badge }}</div>
+          {% endif %}
+        </abbr>
+      {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -180,12 +198,14 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
+    <div class="periodical publication-meta">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical publication-note{% if entry.badge or entry.note_highlight %} publication-note-highlight{% endif %}">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -239,7 +259,7 @@
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">{{ entry.code_label | default: "Code" }}</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
@@ -255,8 +275,9 @@
           <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
         {% endif %}
       {% endif %}
-      {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% assign website_link = entry.website | default: entry.url %}
+      {% if website_link %}
+        <a href="{{ website_link }}" class="btn btn-sm z-depth-0" role="button">{{ entry.website_label | default: "Website" }}</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

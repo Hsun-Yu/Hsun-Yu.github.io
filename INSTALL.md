@@ -87,6 +87,40 @@ Now, feel free to customize the theme however you like (don't forget to change t
 
 > Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose -f docker-compose-slim.yml up`
 
+## Local setup for Python helper tools with uv
+
+Docker is still the recommended way to run the Jekyll site locally. If you also want a reproducible Python environment for helper tools such as Google Scholar citation updates, notebook conversion, or RenderCV, you can use [`uv`](https://docs.astral.sh/uv/).
+
+From the repository root, run:
+
+```bash
+uv sync
+```
+
+This creates a local `.venv/` and installs the Python dependencies defined in `pyproject.toml`.
+
+If you do not already have Python 3.12 available on your machine, `uv` can install it for you:
+
+```bash
+uv python install 3.12
+uv sync
+```
+
+Useful commands:
+
+```bash
+# Run the citation updater inside the uv-managed environment
+uv run python bin/update_scholar_citations.py
+
+# Render the CV locally with the repository settings
+uv run rendercv render _data/cv.yml --settings assets/rendercv/settings.yaml
+
+# Export a notebook manually if you need to debug nbconvert
+uv run jupyter nbconvert --to html assets/jupyter/blog.ipynb
+```
+
+If you prefer the older `pip` workflow, `requirements.txt` is still available for CI and manual installs.
+
 ### Build your own docker image
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.

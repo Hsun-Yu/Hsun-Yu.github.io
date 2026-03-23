@@ -1,189 +1,179 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Hsun-Yu Kuo
+  label: M.Sc. Student in Computer Science
+  email: hsun-yu.kuo@epfl.ch
+  location: Lausanne, Switzerland
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  website: https://hsun-yu.github.io
+  summary: "M.Sc. student in Computer Science at EPFL with interests in machine learning, data-centric AI, reinforcement learning, extrapolation, robustness, causality, and AI for social good."
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: hsun-yu-kuo
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Lausanne
+    countryCode: CH
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+    Academic Interests:
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords:
+          - Data-centric AI
+          - Reinforcement learning
+          - Extrapolation
+          - Robustness
+          - Causality
+          - AI for social good
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Education:
+      - institution: Swiss Federal Institute of Technology (EPFL)
+        location: Lausanne, Switzerland
+        url: https://www.epfl.ch/
+        area: Computer Science Theory
+        studyType: M.Sc. in Computer Science
+        start_date: 2024-09
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Coursework: Machine Learning, Advanced Algorithms, Causal Thinking, Mathematics of Data, Markov Chains and Algorithmic Applications, Deep Learning, Reinforcement Learning, and Modern Natural Language Processing."
+          - Completed mandatory military service from March to June 2025.
+
+      - institution: National Taiwan University
+        location: Taipei, Taiwan
+        area: Data Science
+        studyType: M.Sc. in Data Science
+        start_date: 2023-02
+        end_date: 2024-06
+        highlights:
+          - Paused studies after June 2024 to pursue a master's degree at EPFL.
+          - "Coursework: Machine Learning, Natural Language Processing, Statistical Foundations of Data Science, Computational Methods for Data Science, and Big Data Systems."
+
+      - institution: National Taiwan University of Science and Technology
+        location: Taipei, Taiwan
+        area: Applied Science and Technology, major in Computer Science
+        studyType: B.Sc. in Applied Science and Technology
+        start_date: 2018-09
+        end_date: 2022-06
+        highlights:
+          - Graduated first in the program in 2022.
+          - "Coursework: Statistics, Probability, Discrete Mathematics, Linear Algebra, Calculus, Algorithms, Data Structures, Database Systems, Operating Systems, Digital Logic Design, Computer Networks, and Machine Learning Foundations."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: MLO Lab, EPFL
+        position: Semester Project Student
+        location: Lausanne, Switzerland
+        start_date: 2025-09
+        end_date: Present
+        summary: "Advisors: Martin Jaggi and El Mahdi Chayti."
         highlights:
-          - Relativity
-          - Description 2.
+          - Exploring the halting problem in recurrent structures and looped transformers.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Robust Machine Learning Group, Max Planck Institute for Intelligent Systems
+        position: Research Intern
+        location: Tubingen, Germany
+        start_date: 2025-06
+        end_date: 2025-08
+        summary: "Advisors: Wieland Brendel and Patrik Reizinger."
         highlights:
-          - Description 1.
-          - Description 2.
+          - Studied out-of-distribution generalization and extrapolation.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: CKIP Lab, Academia Sinica and IR Lab, National Taiwan University
+        position: Research Assistant
+        location: Taipei, Taiwan
+        start_date: 2023-02
+        end_date: 2024-06
+        summary: "Advisors: Wei-Yun Ma and Pu-Jen Cheng."
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Worked on data weighting methods for synthetic data to better match real-data distributions.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Industrial Technology Research Institute
+        position: Intern
+        location: Taipei, Taiwan
+        start_date: 2021-07
+        end_date: 2021-09
+        highlights:
+          - Engineered short- and long-term load forecasting methods for Taiwan Power Company.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Wireless System Lab, National Taiwan University of Science and Technology
+        position: Research Assistant
+        location: Taipei, Taiwan
+        start_date: 2019-09
+        end_date: 2021-01
+        summary: "Advisor: Chin-Ya Huang."
+        highlights:
+          - Devised an MTC scheme for dynamic CBRS channel allocation.
+          - Implemented RLNC and Galois field arithmetic in P4 and simulated with ONOS and Mininet.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: "When to Stop and Data Order Matter: On Extrapolation in Looped Transformers"
+        publisher: Working paper
+        releaseDate: 2025
+        summary: "Joint work with El Mahdi Chayti, Patrik Reizinger, Martin Jaggi, and Wieland Brendel."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: "Not All LLM-Generated Data Are Equal: Rethinking Data Weighting in Text Classification"
+        publisher: "ICLR 2025 (Spotlight, top 5.1%)"
+        releaseDate: 2025
+        url: https://openreview.net/forum?id=oI5tZaWkF9
+        summary: "Work on synthetic data weighting for text classification with Yin-Hsiang Liao, Yu-Chieh Chao, Wei-Yun Ma, and Pu-Jen Cheng."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Reliable Data Transmission through Private CBRS Networks
+        publisher: Preprint
+        releaseDate: 2023
+        url: https://doi.org/10.48550/arXiv.2310.14171
+        summary: "Collaboration with Szu-Yu Liu, Chin-Ya Huang, Yu-Chi Chen, and Meng-Hua Xie."
+
+      - title: Differential Diagnostic Value of Machine Learning-Based Models for Embolic Stroke
+        publisher: Clinical and Applied Thrombosis/Hemostasis
+        releaseDate: 2023
+        summary: Journal article on machine-learning-based diagnostic models for embolic stroke.
+
+      - title: The Modified Spatial Context Memory Test for Assessing Cognitive Aging in Middle-Aged and Older Adults
+        publisher: Neuroscience Research
+        releaseDate: 2019
+        summary: Co-authored study on cognitive aging assessment.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Research Areas
+        icon: fa-solid fa-code-branch
+        keywords:
+          - Machine learning
+          - Natural language processing
+          - Data-centric AI
+          - Reinforcement learning
+          - Robustness
+          - Extrapolation
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+    Teaching Experience:
+      - label: Teaching Assistant, National Taiwan University
+        details: "System Programming (Sept. 2023-Jan. 2024). Led TA sessions and supported more than 100 students. Designed a context-switch simulation using non-local jumps and signals for a course assignment."
 
-      - name: English
-        summary: "Fluent"
+    Honors and Awards:
+      - title: Phi Tau Phi Scholastic Honor Society of the Republic of China
+        awarder: Taiwan
+        date: 2022
+        summary: Honorary membership.
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: Mengjia Longshan Temple Scholarship
+        awarder: Taiwan
+        date: 2021
+        summary: Academic Excellence Scholarship for excellent academic performance.
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - title: Academic Excellence Award
+        awarder: Taiwan
+        date: 2022
+        summary: Seven consecutive awards for excellent academic performance from 2018 to 2022.
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - title: Kanagawa International Science Forum
+        awarder: Kanagawa, Japan
+        date: 2017
+        summary: First place and Outstanding Poster Presentation Award in the engineering category.
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: National Skills Competition
+        awarder: Taiwan
+        date: 2016
+        summary: First place (Golden Award) in software applications development.
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Professional Service:
+      - bullet: Conference reviewer for ICLR 2026.
+      - bullet: Volunteer at SIGIR 2023.

@@ -2,6 +2,10 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
+"ICLR '25":
+  url: https://iclr.cc/
+  color: "#b509ac"
+
 "PhysRev":
   url: https://journals.aps.org/
 
