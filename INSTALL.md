@@ -10,6 +10,7 @@
     - [Local Development](#local-development)
   - [Local setup on Windows](#local-setup-on-windows)
   - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
+  - [Local setup for Python helper tools with uv](#local-setup-for-python-helper-tools-with-uv)
     - [Build your own docker image](#build-your-own-docker-image)
     - [Have Bugs on Docker Image?](#have-bugs-on-docker-image)
   - [Local Setup with Development Containers](#local-setup-with-development-containers)
