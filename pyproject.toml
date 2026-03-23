@@ -1,0 +1,14 @@
+[project]
+name = "al-folio-python-tools"
+version = "0.1.0"
+description = "Python helper tools for the al-folio site workflow."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "nbconvert",
+  "pyyaml",
+  "rendercv[full]",
+  "scholarly",
+]
+
+[tool.uv]
+package = false
