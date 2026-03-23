@@ -98,20 +98,26 @@
                   </div>
                 </li>
               {% else %}
-                {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {%- assign is_external = false -%}
-                  {%- if p.external_url -%}
-                    {%- assign url = p.external_url -%}
-                    {%- assign is_external = true -%}
-                  {%- elsif p.permalink contains '://' -%}
-                    {%- assign url = p.permalink -%}
-                    {%- assign is_external = true -%}
-                  {%- elsif p.permalink contains '/blog/' -%}
-                    {%- assign url = '/blog/' -%}
-                  {%- else -%}
-                    {%- assign url = p.url -%}
-                  {%- endif %}
+                {%- assign is_external = false -%}
+                {%- if p.external_url -%}
+                  {%- assign url = p.external_url -%}
+                  {%- assign is_external = true -%}
+                {%- elsif p.permalink contains '://' -%}
+                  {%- assign url = p.permalink -%}
+                  {%- assign is_external = true -%}
+                {%- elsif p.permalink contains '/blog/' -%}
+                  {%- assign url = '/blog/' -%}
+                {%- else -%}
+                  {%- assign url = p.url -%}
+                {%- endif %}
+                {% assign parent_link = p.permalink | default: p.url | remove: 'index.html' %}
+                {% assign is_active = false %}
+                {% unless is_external %}
+                  {% if page.url contains parent_link %}
+                    {% assign is_active = true %}
+                  {% endif %}
+                {% endunless %}
+                <li class="nav-item {% if is_active %}active{% endif %}">
                   <a
                     class="nav-link"
                     href="{% if is_external %}{{ url }}{% else %}{{ url | relative_url }}{% endif %}"
@@ -120,7 +126,7 @@
                     {% endif %}
                   >
                     {{- p.title }}
-                    {% if page.url contains p.url %}
+                    {% if is_active %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
