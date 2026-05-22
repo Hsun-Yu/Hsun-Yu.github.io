@@ -106,8 +106,8 @@ cv:
           - Implemented RLNC and Galois field arithmetic in P4 and simulated with ONOS and Mininet.
 
     Publications:
-      - title: "When to Stop and Data Order Matter: On Extrapolation in Looped Transformers"
-        publisher: Working paper
+      - title: "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping"
+        publisher: Under review
         releaseDate: 2025
         summary: "Joint work with El Mahdi Chayti, Patrik Reizinger, Martin Jaggi, and Wieland Brendel."
 
