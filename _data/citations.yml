@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-15'
 papers:
   RX2WfccAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -21,3 +21,7 @@ papers:
     citations: 8
     title: 'Not All LLM-Generated Data Are Equal: Rethinking Data Weighting in Text Classification'
     year: '2025'
+  RX2WfccAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping
+    year: '2026'
