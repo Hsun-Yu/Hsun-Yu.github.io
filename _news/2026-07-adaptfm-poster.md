@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I presented our paper, ["Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping"](https://arxiv.org/abs/2606.29983), as a poster at the [ICML 2026 Workshop on Resource-Adaptive Foundation Model Inference (AdaptFM)](https://adaptfm.gitlab.io/).
+I presented our work on [looped transformers](https://arxiv.org/abs/2606.29983) as a poster at the [ICML 2026 AdaptFM workshop](https://adaptfm.gitlab.io/).

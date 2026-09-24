@@ -107,9 +107,10 @@ cv:
 
     Publications:
       - title: "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping"
-        publisher: Under review
-        releaseDate: 2025
-        summary: "Joint work with El Mahdi Chayti, Patrik Reizinger, Martin Jaggi, and Wieland Brendel."
+        publisher: "NeurIPS 2026 (Main Track)"
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2606.29983
+        summary: "Joint work with El Mahdi Chayti, Patrik Reizinger, Wieland Brendel, and Martin Jaggi. Also presented as a poster at the ICML 2026 AdaptFM workshop."
 
       - title: "Not All LLM-Generated Data Are Equal: Rethinking Data Weighting in Text Classification"
         publisher: "ICLR 2025 (Spotlight, top 5.1%)"
@@ -130,7 +131,8 @@ cv:
 
       - title: The Modified Spatial Context Memory Test for Assessing Cognitive Aging in Middle-Aged and Older Adults
         publisher: Neuroscience Research
-        releaseDate: 2019
+        releaseDate: 2025
+        url: https://doi.org/10.1016/j.neures.2025.104956
         summary: Co-authored study on cognitive aging assessment.
 
     Skills:

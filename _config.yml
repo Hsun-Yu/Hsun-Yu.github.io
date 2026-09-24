@@ -274,7 +274,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Kuo]
-  first_name: [Hsun-Yu, H.-Y.]
+  first_name: [Hsun-Yu, HsunYu, H.-Y.]
 
   style: apa
   locale: en
@@ -325,7 +325,8 @@ filtered_bibtex_keywords:
     code,
     code_label,
     dimensions,
-    eprint,
+    display_note,
+    display_venue,
     google_scholar_id,
     hal,
     html,

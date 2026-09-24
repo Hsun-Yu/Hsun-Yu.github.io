@@ -2,13 +2,15 @@
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+      class="table-responsive{% if include.limit and page.announcements.scrollable %} news-scrollable{% endif %}"
+      {% if include.limit and page.announcements.scrollable %}
+        tabindex="0"
+        role="region"
+        aria-label="Recent news"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign news = site.news | sort: 'date' | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}

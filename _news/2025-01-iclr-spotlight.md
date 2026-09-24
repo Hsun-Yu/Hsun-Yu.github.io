@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, ["Not All LLM-Generated Data Are Equal"](https://openreview.net/forum?id=oI5tZaWkF9), was accepted to ICLR 2025 and selected as a Spotlight.
+**ICLR 2025**: Our paper, ["Not All LLM-Generated Data Are Equal"](https://openreview.net/forum?id=oI5tZaWkF9), was accepted and selected as a Spotlight!

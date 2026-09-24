@@ -90,6 +90,34 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// News
+
+.news-scrollable {
+  max-height: 12rem;
+  margin-bottom: 1rem;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--global-divider-color);
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--global-text-color-light);
+    border-radius: 5px;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+}
+
 // CV
 
 .cv {
